@@ -5,9 +5,10 @@ class AuthGradientButton extends StatelessWidget {
   final String buttonText;
   final VoidCallback onTap;
   const AuthGradientButton({
-    super.key, 
+    super.key,
     required this.buttonText,
-    required this.onTap,});
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {

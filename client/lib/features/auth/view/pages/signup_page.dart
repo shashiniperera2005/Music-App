@@ -63,11 +63,11 @@ class _SignupPageState extends State<SignupPage> {
               const SizedBox(height: 20),
               AuthGradientButton(
                 buttonText: 'Sign Up',
-                 onTap: () {},
+                onTap: () {},
               ),
               const SizedBox(height: 20),
-              RichText(text: 
-                TextSpan(
+              RichText(
+                text: TextSpan(
                   text: 'Already have an account? ',
                   style: Theme.of(context).textTheme.titleMedium,
                   children: const [
